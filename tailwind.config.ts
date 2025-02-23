@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "deep-pink": "#b0767c",
+        "soft-pink": "#dfb1b4",   // 中間ピンク
+        "warm-beige": "#ebddd7",  // 中間ベージュ
+        "light-beige": "#fcf9f6"  // 薄いベージュ（ほぼ白）
       },
     },
   },
