@@ -1,7 +1,10 @@
+import Header from "@/components/Header";
+
 export default function Home() {
   return (
     <div className="bg-light-beige min-h-screen">
-        <div className="text-deep-pink">ももだよ</div>
+        <Header />
+        <main className="text-deep-pink">ももだよ</main>
     </div>
   );
 }
