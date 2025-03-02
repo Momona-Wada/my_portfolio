@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import {
     Menubar,
     MenubarContent,
@@ -10,13 +9,10 @@ import {
 } from "@/components/ui/menubar";
 import { Switch } from "@/components/ui/switch";
 import Link from "next/link";
+import { useLanguage } from "@/app/context/LanguageContext";
 
 const Header = () => {
-    const [isJapanese, setIsJapanese] = useState(false)
-
-    const toggleLanguage = () => {
-        setIsJapanese((prev => !prev))
-    }
+    const { toggleLanguage, language } = useLanguage()
 
     return (
         <Menubar className="text-light-beige bg-soft-pink flex justify-between">
@@ -52,8 +48,8 @@ const Header = () => {
 
             {/*言語切り替えスイッチ */}
             <div className="ml-auto flex items-center gap-2 p-3">
-                <span className="text-sm">{isJapanese ? "日本語" : "English"}</span>
-                <Switch checked={isJapanese} onCheckedChange={toggleLanguage}/>
+                <span className="text-sm">{language === "jp" ? "日本語" : "English"}</span>
+                <Switch checked={language === "jp"} onCheckedChange={toggleLanguage}/>
             </div>
         </Menubar>
     );

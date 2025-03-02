@@ -2,8 +2,10 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useLanguage } from "@/app/context/LanguageContext";
 
 const HeroSection = () => {
+    const { messages } = useLanguage();
     return (
         <section className="relative w-full h-screen flex items-center justify-center bg-light-beige">
       {/* 背景画像 */}
@@ -30,7 +32,7 @@ const HeroSection = () => {
             transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
             className="text-4xl font-bold"
             >
-            Momona Wada
+            {messages.common.hero.name}
             </motion.h1>
             <motion.p
             initial={{ y: 20, opacity: 0 }}
@@ -38,7 +40,7 @@ const HeroSection = () => {
             transition={{ duration: 1, delay: 0.7, ease: "easeOut" }}
             className="text-lg mt-2"
             >
-            Welcome to my portfolio!
+            {messages.common.hero.description}
             </motion.p>
         </div>
     </section>
