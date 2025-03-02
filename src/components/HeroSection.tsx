@@ -18,7 +18,7 @@ const HeroSection = () => {
             alt="Profile Picture"
             layout="fill"
             objectFit="cover"
-            className="rounded-lg"
+            className="rounded-lg p-10"
             />
         </motion.div>
 
