@@ -15,7 +15,7 @@ const Header = () => {
     const { toggleLanguage, language } = useLanguage()
 
     return (
-        <Menubar className="text-light-beige bg-soft-pink flex justify-between">
+        <Menubar className="fixed top-0 left-0 w-full z-50 text-light-beige bg-soft-pink flex justify-between shadow-md p-3">
             {/* Projects メニュー */}
             <div className="flex">
                 <MenubarMenu>
