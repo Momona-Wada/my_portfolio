@@ -18,8 +18,8 @@ const HeroSection = () => {
             <Image
             src="/images/ichiran.JPG" 
             alt="Profile Picture"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
             className="rounded-lg p-10"
             />
         </motion.div>
