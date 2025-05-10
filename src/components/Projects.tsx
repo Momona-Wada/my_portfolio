@@ -72,7 +72,7 @@ const badgeColors: Record<string, string> = {
 };
 
 export const Projects = () => {
-  const { messages } = useLanguage();
+  // const { messages } = useLanguage();
 
   return (
     <section className="py-10 px-4 md:px-10 bg-light-beige text-deep-pink">
