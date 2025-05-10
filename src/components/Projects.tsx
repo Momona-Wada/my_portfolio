@@ -11,7 +11,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
-import { useLanguage } from "@/app/context/LanguageContext";
 import { kottaOne } from "@/app/fonts";
 import clsx from "clsx";
 
