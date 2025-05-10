@@ -1,4 +1,4 @@
-/* Projects section with shadcn carousel */
+/* Projects section with shadcn carousel – hide peek slides until active */
 
 "use client";
 
@@ -13,51 +13,126 @@ import {
 import Image from "next/image";
 import { useLanguage } from "@/app/context/LanguageContext";
 import { kottaOne } from "@/app/fonts";
+import clsx from "clsx";
 
-// ① スライド表示したい画像パスを配列にまとめる
-const projectImages = [
-  "/images/my_body_buddy_logo.png",
+interface Project {
+  id: string;
+  title: string;
+  description: string;
+  tech: string[];
+  images: string[];
+}
+
+const projects: Project[] = [
+  {
+    id: "my_body_buddy",
+    title: "My Project 1",
+    description: "description",
+    tech: ["JavaScript", "TailwindCSS"],
+    images: [
+      "/images/my_body_buddy_logo.png",
+      "/images/momo_punta.jpeg",
+    ],
+  },
+  {
+    id: "my_project2",
+    title: "My Project 2",
+    description: "description",
+    tech: ["React", "TailwindCSS"],
+    images: ["/images/momo_punta.jpeg"],
+  },
+  {
+    id: "my_project3",
+    title: "My Project 3",
+    description: "description",
+    tech: ["Python", "Bootstrap"],
+    images: [
+      "/images/my_body_buddy_logo.png",
+      "/images/momo_punta.jpeg",
+    ],
+  },
+  {
+    id: "my_project4",
+    title: "My Project 4",
+    description: "description",
+    tech: ["JavaScript", "TailwindCSS"],
+    images: [
+      "/images/my_body_buddy_logo.png",
+      "/images/momo_punta.jpeg",
+    ],
+  },
 ];
 
-const Projects = () => {
+const badgeColors: Record<string, string> = {
+  JavaScript: "bg-rose-200 text-rose-700",
+  React: "bg-rose-200 text-rose-700",
+  TailwindCSS: "bg-rose-100 text-rose-700",
+  Python: "bg-rose-300 text-rose-800",
+  Bootstrap: "bg-rose-100 text-rose-700",
+};
+
+export const Projects = () => {
   const { messages } = useLanguage();
 
   return (
-    <section className="py-5 px-10 bg-light-beige text-deep-pink">
-      <h2 className={`text-4xl ${kottaOne.className}`}>My Projects</h2>
+    <section className="py-10 px-4 md:px-10 bg-light-beige text-deep-pink">
+      <h2 className={`text-3xl md:text-4xl ${kottaOne.className}`}>My Projects</h2>
 
-      {/* カードを中央寄せ・適切サイズに制限 */}
-      <div className="mt-6 flex justify-center">
-        <Card className="max-w-md w-full shadow-lg">
-          <CardHeader className="p-0">
-            {/* ② shadcn Carousel で画像をスライド表示 */}
-            <Carousel className="w-full">
-              <CarouselContent>
-                {projectImages.map((src, idx) => (
-                  <CarouselItem
-                    key={idx}
-                    className="flex items-center justify-center"
+      {/* Responsive grid */}
+      <div className="mt-8 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {projects.map((project) => (
+          <Card key={project.id} className="w-full shadow-lg">
+            {/* Carousel wrapper: relative + overflow-hidden */}
+            <CardHeader className="p-0 relative overflow-hidden">
+              <Carousel className="w-full">
+                <CarouselContent>
+                  {project.images.map((src, idx) => (
+                    <CarouselItem key={idx} className="min-w-full">
+                      <div className="px-6 pt-6 flex justify-center">
+                        <Image
+                          src={src}
+                          alt={`${project.title} image ${idx + 1}`}
+                          width={400}
+                          height={250}
+                          className="h-48 w-full object-cover rounded-md"
+                        />
+                      </div>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+
+                {/* Show arrows only if multiple images */}
+                {project.images.length > 1 && (
+                  <>  
+                    <CarouselPrevious className="absolute top-1/2 left-6 -translate-y-1/2" />
+                    <CarouselNext className="absolute top-1/2 right-6 -translate-y-1/2" />
+                  </>
+                )}
+              </Carousel>
+            </CardHeader>
+
+            {/* Content */}
+            <CardContent className="space-y-3 py-4">
+              <h3 className="text-lg font-semibold">{project.title}</h3>
+              <div className="flex flex-wrap gap-2">
+                {project.tech.map((t) => (
+                  <span
+                    key={t}
+                    className={clsx(
+                      "rounded-full px-3 py-0.5 text-xs font-medium",
+                      badgeColors[t] || "bg-rose-100 text-rose-700"
+                    )}
                   >
-                    <Image
-                      src={src}
-                      alt={messages.common.projects.title}
-                      width={400}
-                      height={250}
-                      className="h-48 w-full object-cover"
-                    />
-                  </CarouselItem>
+                    {t}
+                  </span>
                 ))}
-              </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
-            </Carousel>
-          </CardHeader>
-
-          {/* 必要に応じてプロジェクトの説明やリンクをここへ */}
-          <CardContent className="text-sm py-4">
-            {/* {messages.common.projects.description} */}
-          </CardContent>
-        </Card>
+              </div>
+              <p className="text-sm leading-relaxed text-deep-pink/80">
+                {project.description}
+              </p>
+            </CardContent>
+          </Card>
+        ))}
       </div>
     </section>
   );
