@@ -1,3 +1,4 @@
+import FunFacts from "@/components/FunFacts";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import Projects from "@/components/Projects";
@@ -9,6 +10,7 @@ export default function Home() {
         <main className="flex flex-col justify-center pt-10">
           <HeroSection />
           <Projects />
+          <FunFacts />
         </main>
     </div>
   );

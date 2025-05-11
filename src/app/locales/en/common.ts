@@ -56,6 +56,32 @@ const commonMessages = {
             },
         },
     },
+
+    funfacts: {
+        heading: "Fun Facts",
+        items: {
+            volunteer: {
+                title: "Volunteer",
+                description: "Cleaning Park Volunteer at Cottonwood Park",
+                image: "/images/momo_punta.jpeg"
+            },
+            hair_donation: {
+                title: "Hair Donation",
+                description: "Donated my loooong hair to an association",
+                image: "/images/momo_punta.jpeg"
+            },
+            dog: {
+                title: "My Dog🩷",
+                description: "My lovely dog named Punta🐶",
+                image: "/images/momo_punta.jpeg"
+            },
+            cooking: {
+                title: "Cooking",
+                description: "I like cooking!",
+                image: "/images/momo_punta.jpeg"
+            }
+        }
+    }
 };
 
 export default commonMessages;

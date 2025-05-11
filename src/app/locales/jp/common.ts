@@ -53,6 +53,32 @@ const commonMessages = {
             },
         },
     },
+
+    funfacts: {
+        heading: "私のプチ情報",
+            items: {
+            volunteer: {
+                title: "ボランティア",
+                description: "コットンウッドパークでの清掃ボランティア",
+                image: "/images/momo_punta.jpeg"
+            },
+            hair_donation: {
+                title: "ヘアドネーション",
+                description: "とても長い髪を団体に寄付しました",
+                image: "/images/momo_punta.jpeg"
+            },
+            dog: {
+                title: "愛犬: ぷん太🩷",
+                description: "かわいい愛犬ぷん太🐶です",
+                image: "/images/momo_punta.jpeg"
+            },
+            cooking: {
+                title: "料理",
+                description: "料理をするのが好きです！",
+                image: "/images/momo_punta.jpeg"
+            }
+        }
+    }
 };
 
 export default commonMessages;
