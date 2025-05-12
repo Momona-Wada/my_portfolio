@@ -1,7 +1,20 @@
 const commonMessages = {
     hero: {
         name: "和田 桃奈",
+        title: "データ/デベロッパー",
+        about_me: "About Me",
         description: "私のポートフォリオへようこそ！",
+        technolories_num: "5+",
+        technologies_learned: "習得した言語数",
+        projects_num: "10+",
+        projects_label: "関わったプロジェクト数",
+        star: "⭐️⭐️⭐️⭐️⭐️",
+        team_collaboration: "チームコラボレーション",
+        contact_title: "連絡先",
+        email: "momona.9410@gmail.com",
+        github: "https://github.com/Momona-Wada",
+        linkedin: "https://www.linkedin.com/in/momona-wada/"
+
     },
     projects: {
         heading: "プロジェクト一覧",

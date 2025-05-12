@@ -1,11 +1,24 @@
 const commonMessages = {
     hero: {
         name: "Momona Wada",
-        description: "Welcome to my portfolio!",
+        title: "Developer/Data Analysist",
+        about_me: "About Me",
+        description: "Welcome to my portfolio",
+        technolories_num: "5+",
+        technologies_learned: "Technologies Learned",
+        projects_num: "10+",
+        projects_label: "Project Completed",
+        star: "⭐️⭐️⭐️⭐️⭐️",
+        team_collaboration: "Team Collaboration",
+        contact_title: "Let's Connect",
+        email: "momona.9410@gmail.com",
+        github: "https://github.com/Momona-Wada",
+        linkedin: "https://www.linkedin.com/in/momona-wada/"
+
     },
 
     projects: {
-      heading: "My Projects",          // セクション見出し
+        heading: "My Projects",
 
       // バッジごとの色を統一したい場合はここで定義
         tagColors: {
