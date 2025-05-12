@@ -22,7 +22,7 @@ const Header = () => {
                 transition={{ duration: 0.5 }}
                 className="hidden md:inline"
             >
-                Momona's portfolio
+                Portfolio
             </motion.span>
             <motion.span
                 initial={{ opacity: 0 }}
