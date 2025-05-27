@@ -22,7 +22,7 @@ const Header = () => {
                 transition={{ duration: 0.5 }}
                 className="hidden md:inline"
             >
-                Portfolio
+                The MomonApp
             </motion.span>
             <motion.span
                 initial={{ opacity: 0 }}
@@ -30,7 +30,7 @@ const Header = () => {
                 transition={{ duration: 0.5 }}
                 className="md:hidden"
             >
-                P
+                
             </motion.span>
             </Link>
 
@@ -41,8 +41,8 @@ const Header = () => {
 
             {/* Language Switcher */}
             <div className="ml-auto flex items-center gap-3 px-2 py-1 rounded-full bg-deep-pink/10">
-            <Globe size={40} className="text-light-beige opacity-80" />
-            <span className="text-2xl font-medium hidden md:inline">{language === "jp" ? "日本語" : "English"}</span>
+            <Globe size={35} className="text-light-beige opacity-80" />
+            <span className="text-xl font-medium hidden md:inline">{language === "jp" ? "日本語" : "English"}</span>
             <Switch
                 checked={language === "jp"}
                 onCheckedChange={toggleLanguage}
