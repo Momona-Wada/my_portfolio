@@ -24,6 +24,7 @@ interface Project {
   description: string;
   tags: string[];
   images: string[];
+  link?: string;
 }
 
 export const Projects = () => {
@@ -40,6 +41,7 @@ export const Projects = () => {
     description: data.description,
     tags: data.tags,
     images: data.images,
+    link: data.link,
   }));
 
   // タグカラーの型を柔軟に
@@ -55,18 +57,18 @@ export const Projects = () => {
       <div className="mt-8 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {projects.map((project) => (
           <Card key={project.id} className="w-full shadow-lg">
-            <CardHeader className="p-0 relative overflow-hidden">
+            <CardHeader className="p-0 relative overflow-hidden bg-deep-pink/20">
               <Carousel className="w-full">
                 <CarouselContent>
                   {project.images.map((src, idx) => (
                     <CarouselItem key={idx} className="min-w-full">
-                      <div className="px-6 pt-6 flex justify-center">
+                      <div className="px-6 py-6 flex justify-center">
                         <Image
                           src={src}
                           alt={`${project.title} image ${idx + 1}`}
                           width={400}
                           height={250}
-                          className="h-48 w-full object-cover rounded-md"
+                          className="h-48 w-full object-contain rounded-md"
                         />
                       </div>
                     </CarouselItem>
@@ -83,7 +85,7 @@ export const Projects = () => {
             </CardHeader>
 
             <CardContent className="space-y-3 py-4">
-              <h3 className="text-lg font-semibold">{project.title}</h3>
+              <h3 className="text-xl font-semibold">{project.title}</h3>
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((t) => (
                   <span
@@ -97,9 +99,19 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <p className="text-sm leading-relaxed text-deep-pink/80">
+              <p className="leading-relaxed text-deep-pink/80">
                 {project.description}
               </p>
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block font-medium text-deep-pink underline hover:text-pink-700"
+                >
+                  {messages.common.projects.view_demo}
+                </a>
+              )}
             </CardContent>
           </Card>
         ))}

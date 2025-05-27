@@ -24,27 +24,30 @@ const commonMessages = {
 
     projects: {
         heading: "My Projects",
+        view_demo: "▶︎ View Demo",
 
       // バッジごとの色を統一したい場合はここで定義
         tagColors: {
-            "TypeScript": "bg-rose-200 text-rose-700",
-            "Tailwind CSS": "bg-rose-100 text-rose-700",
-            React: "bg-rose-200 text-rose-700",
-            "Next.js": "bg-rose-200 text-rose-700",
-            Python: "bg-rose-300 text-rose-800",
+            TypeScript: "bg-blue-200  text-blue-800",
+            "Tailwind CSS": "bg-sky-200  text-sky-800",
+            React: "bg-sky-100  text-sky-900",
+            "Next.js": "bg-neutral-200 text-neutral-800",
+            Python: "bg-blue-200  text-blue-900",
             Bootstrap: "bg-rose-100 text-rose-700",
+            MongoDB: "bg-emerald-200 text-emerald-800",
         },
 
       /* ==== 1 プロジェクト = 1 キー ==== */
         items: {
             my_body_buddy: {
             title: "My Body Buddy",
-            description: "AI‑powered fitness app",
-            tags: ["TypeScript", "Tailwind CSS", "React", "Next.js"],
+            description: "This app was developed as part of a BCIT project course by a team of five members including myself. It is an AI-powered fitness app that supports healthier living by suggesting personalized workout and meal plans tailored to each user. The app focuses on daily condition tracking and goal-based recommendations.",
+            tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "MongoDB"],
             images: [
-                "/images/my_body_buddy_logo.png",
-                "/images/momo_punta.jpeg",
+                "/images/my-body-buddy/my_body_buddy_logo.png",
+                "/images/my-body-buddy/my-body-buddy-login.png",
             ],
+            link: "https://www.youtube.com/watch?v=48NVdBRSGUI",
             },
             my_project2: {
                 title: "Random Fun Project",

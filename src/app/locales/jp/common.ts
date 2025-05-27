@@ -22,24 +22,27 @@ const commonMessages = {
     },
     projects: {
         heading: "プロジェクト一覧",
+        view_demo: "▶︎ デモを見る",
     
         tagColors: {
-            TypeScript: "bg-rose-200 text-rose-700",
-            "Tailwind CSS": "bg-rose-100 text-rose-700",
-            React: "bg-rose-200 text-rose-700",
-            "Next.js": "bg-rose-200 text-rose-700",
-            Python: "bg-rose-300 text-rose-800",
+            TypeScript: "bg-blue-200  text-blue-800",
+            "Tailwind CSS": "bg-sky-200  text-sky-800",
+            React: "bg-sky-100  text-sky-900",
+            "Next.js": "bg-neutral-200 text-neutral-800",
+            Python: "bg-blue-200  text-blue-900",
             Bootstrap: "bg-rose-100 text-rose-700",
+            MongoDB: "bg-emerald-200 text-emerald-800",
         },
         items: {
             my_body_buddy: {
                 title: "My Body Buddy",
-                description: "AI を活用したフィットネスアプリ",
-                tags: ["TypeScript", "Tailwind CSS", "React", "Next.js"],
+                description: "このアプリは、BCITのプロジェクトコースで5人チーム（私を含む）と共に開発しました。AIを活用して、ユーザー一人ひとりに最適な運動メニューや食事プランを提案する、健康促進のためのフィットネスアプリです。日々のコンディションや目標に応じたパーソナライズ機能が特徴です。",
+                tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "MongoDB"],
                 images: [
-                    "/images/my_body_buddy_logo.png",
-                    "/images/momo_punta.jpeg",
+                    "/images/my-body-buddy/my_body_buddy_logo.png",
+                    "/images/my-body-buddy/my-body-buddy-login.png",
                 ],
+                link: "https://www.youtube.com/watch?v=48NVdBRSGUI",
             },
     
             my_project2: {
