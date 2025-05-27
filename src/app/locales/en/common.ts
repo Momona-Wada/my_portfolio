@@ -3,8 +3,10 @@ const commonMessages = {
         name: "Momona Wada",
         title: "Developer/Data Analysist",
         about_me: "About Me",
-        description: "Thank you for visiting my portfolio!\n" +
+        description:
+        "Thank you for visiting my portfolio!\n" +
         "I'm a junior IT engineer currently living in Canada for the fourth year. I completed the Computer Systems Technology program at BCIT in May 2025 and am currently seeking job opportunities.\n" +
+        "At BCIT, I chose the Predictive Analytics option, where I worked on data analysis, model building, and creating documentation based on the results. I believe that building a model is not the end goal — clearly organizing and documenting the outcomes is just as important. I enjoy and excel at this process of turning insights into structured, written materials.\n" +
         "My strengths include smooth communication within teams, strong time management skills, and the ability to consider others' perspectives when working. I always strive to handle tasks and projects with care while being considerate of both clients and team members.\n" +
         "In this portfolio, you'll find the projects I’ve worked on and a few of my personal interests. I hope you enjoy exploring it! 😊",
         technolories_num: "5+",
