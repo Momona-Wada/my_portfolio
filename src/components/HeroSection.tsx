@@ -67,14 +67,16 @@ const HeroSection = () => {
                             transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
                         >
                             <h2 className="text-2xl font-semibold text-deep-pink mb-4">{messages.common.hero.about_me}</h2>
-                            <motion.p
+                            <motion.div
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.9 }}
                             className="text-lg text-gray-700 mb-6"
                             >
-                            {messages.common.hero.description}
-                            </motion.p>
+                            {messages.common.hero.description.split("\n").map((line, idx) => (
+                                <p key={idx}>{line}</p>
+                            ))}
+                            </motion.div>
 
                             {/* Stats or highlights */}
                             <motion.div

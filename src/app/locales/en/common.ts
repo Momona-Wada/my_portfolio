@@ -3,7 +3,7 @@ const commonMessages = {
         name: "Momona Wada",
         title: "Developer/Data Analysist",
         about_me: "About Me",
-        description: "Welcome to my portfolio",
+        description: "Welcome to my portfolio\n",
         technolories_num: "5+",
         technologies_learned: "Technologies Learned",
         projects_num: "10+",
