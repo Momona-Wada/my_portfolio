@@ -13,9 +13,9 @@ const Header = () => {
     return (
         <header className="fixed top-0 left-0 w-full z-50">
 
-        <Menubar className="rounded-none border-none border-b border-deep-pink/10 text-light-beige bg-soft-pink shadow-md py-3 px-4 md:px-8 flex items-center justify-between">
+        <Menubar className="rounded-none border-none border-b border-deep-pink/10 text-light-beige bg-soft-pink shadow-md py-9 px-4 md:px-8 flex items-center justify-between">
             {/* Logo/Brand */}
-            <Link href="/" className="mr-8 font-semibold text-xl tracking-tight">
+            <Link href="/" className="mr-8 font-semibold text-2xl tracking-tight">
             <motion.span
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -41,8 +41,8 @@ const Header = () => {
 
             {/* Language Switcher */}
             <div className="ml-auto flex items-center gap-3 px-2 py-1 rounded-full bg-deep-pink/10">
-            <Globe size={16} className="text-light-beige opacity-80" />
-            <span className="text-sm font-medium hidden md:inline">{language === "jp" ? "日本語" : "English"}</span>
+            <Globe size={40} className="text-light-beige opacity-80" />
+            <span className="text-2xl font-medium hidden md:inline">{language === "jp" ? "日本語" : "English"}</span>
             <Switch
                 checked={language === "jp"}
                 onCheckedChange={toggleLanguage}
