@@ -37,6 +37,8 @@ const commonMessages = {
             MongoDB: "bg-emerald-200 text-emerald-800",
             FastAPI: "bg-teal-200 text-teal-800",
             Swift: "bg-orange-200 text-orange-800",
+            mySQL: "bg-blue-100  text-blue-900",
+            FireStore: "bg-amber-200 text-amber-800",
         },
 
       /* ==== 1 プロジェクト = 1 キー ==== */
@@ -59,13 +61,14 @@ const commonMessages = {
                 link: "https://youtu.be/f_xdtA08Ua4",
             },
 
-            my_project3: {
-                title: "Data Science Demo",
-                description: "Built with Python & Bootstrap",
-                tags: ["Python", "Bootstrap"],
+            skyline_zipline: {
+                title: "Skyline Zipline",
+                description: "This project was conducted as an industry–academia collaboration in BCIT’s Project Practicum course, with Skyline Zipline as our client and a student team leading the development. We created a web application that digitizes the previously paper-based Zipline inspection forms, streamlining on-site data entry and improving overall data management convenience.",
+                tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "mySQL", "FireStore"],
                 images: [
-                    "/images/my_body_buddy_logo.png",
-                    "/images/momo_punta.jpeg",
+                    "/images/skyline-zipline/skyline-login.png",
+                    "/images/skyline-zipline/skyline-dashboard.png",
+                    "/images/skyline-zipline/skyline-table.png",
                 ],
             },
 

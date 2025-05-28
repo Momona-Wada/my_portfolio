@@ -34,11 +34,13 @@ const commonMessages = {
             MongoDB: "bg-emerald-200 text-emerald-800",
             FastAPI: "bg-teal-200 text-teal-800",
             Swift: "bg-orange-200 text-orange-800",
+            mySQL: "bg-blue-100  text-blue-900",
+            FireStore: "bg-amber-200 text-amber-800",
         },
         items: {
             my_body_buddy: {
                 title: "My Body Buddy",
-                description: "このアプリは、BCITのプロジェクトコースで5人チーム（私を含む）と共に開発しました。AIを活用して、ユーザー一人ひとりに最適な運動メニューや食事プランを提案する、健康促進のためのフィットネスアプリです。日々のコンディションや目標に応じたパーソナライズ機能が特徴です。",
+                description: "このアプリは、BCITのプロジェクトコースで5人チーム(私を含む)と共に開発しました。AIを活用して、ユーザー一人ひとりに最適な運動メニューや食事プランを提案する、健康促進のためのフィットネスアプリです。日々のコンディションや目標に応じたパーソナライズ機能が特徴です。",
                 tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "MongoDB"],
                 images: [
                     "/images/my-body-buddy/my_body_buddy_logo.png",
@@ -55,13 +57,14 @@ const commonMessages = {
                 link: "https://youtu.be/f_xdtA08Ua4",
             },
     
-            my_project3: {
-                title: "データサイエンスデモ",
-                description: "Python と Bootstrap で構築",
-                tags: ["Python", "Bootstrap"],
+            skyline_zipline: {
+                title: "Skyline Zipline",
+                description: "このプロジェクトは、BCITのProject Practicumコースにおける産学連携プロジェクトで、Skyline Ziplineをクライアントに迎えて学生チームが開発を行いました。紙ベースで運用されていたZiplineの点検フォームをWebアプリにデジタル化し、現場での入力作業の効率化とデータ管理の利便性向上を実現しました。",
+                tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "mySQL", "FireStore"],
                 images: [
-                    "/images/my_body_buddy_logo.png",
-                    "/images/momo_punta.jpeg",
+                    "/images/skyline-zipline/skyline-login.png",
+                    "/images/skyline-zipline/skyline-dashboard.png",
+                    "/images/skyline-zipline/skyline-table.png",
                 ],
             },
     
