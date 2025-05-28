@@ -72,14 +72,16 @@ const commonMessages = {
                 ],
             },
 
-            my_project4: {
-                title: "Another Cool App",
-                description: "Yet another project",
-                tags: ["JavaScript", "Tailwind CSS"],
+            starbucks_drink_finder: {
+                title: "Starbuck Drink Finder",
+                description: "Starbucks Drink Finder is a web application that recommends the best Starbucks drinks based on user preferences. It analyzes natural language input to predict tags such as 'sweet' or 'low calorie,' and ranks drinks by a calculated health score. This project received a perfect score (100%) in a BCIT course and was praised by the instructor for its clarity and the high quality of the demo video.",
+                tags: ["React", "Tailwind CSS", "Python"],
                 images: [
-                    "/images/my_body_buddy_logo.png",
-                    "/images/momo_punta.jpeg",
+                    "/images/starbucks-drink-finder/starbucks-title.png",
+                    "/images/starbucks-drink-finder/starbucks-sweet.png",
+                    "/images/starbucks-drink-finder/starbucks-cafeine.png",
                 ],
+                link: "https://youtu.be/EZq9Z4FP73k",
             },
         },
     },

@@ -68,14 +68,16 @@ const commonMessages = {
                 ],
             },
     
-            my_project4: {
-                title: "クールなアプリ",
-                description: "別のサンプルプロジェクト",
-                tags: ["JavaScript", "Tailwind CSS"],
+            starbucks_drink_finder: {
+                title: "Starbucks Drink Finder",
+                description: "Starbucks Drink Finderは、ユーザーの好みに応じて最適なスターバックスドリンクを提案するWebアプリです。自然言語で入力されたテキストからタグ(例:'甘い'、'低カロリー' など)を予測し、健康スコアに基づいておすすめの飲み物を表示します。このプロジェクトはBCITの授業で100%の評価を受け、特にデモビデオの分かりやすさと完成度の高さを講師から高く評価されました。",
+                tags: ["React", "Tailwind CSS", "Python"],
                 images: [
-                    "/images/my_body_buddy_logo.png",
-                    "/images/momo_punta.jpeg",
+                    "/images/starbucks-drink-finder/starbucks-title.png",
+                    "/images/starbucks-drink-finder/starbucks-sweet.png",
+                    "/images/starbucks-drink-finder/starbucks-cafeine.png",
                 ],
+                link: "https://youtu.be/EZq9Z4FP73k",
             },
         },
     },
