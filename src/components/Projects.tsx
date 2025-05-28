@@ -57,18 +57,18 @@ export const Projects = () => {
       <div className="mt-8 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {projects.map((project) => (
           <Card key={project.id} className="w-full shadow-lg">
-            <CardHeader className="p-0 relative overflow-hidden bg-deep-pink/20">
+            <CardHeader className="p-0 relative overflow-hidden bg-deep-pink/20 max-h-80">
               <Carousel className="w-full">
                 <CarouselContent>
                   {project.images.map((src, idx) => (
                     <CarouselItem key={idx} className="min-w-full">
-                      <div className="px-6 py-6 flex justify-center">
+                      <div className="p-6 flex items-center justify-center h-80">
                         <Image
                           src={src}
                           alt={`${project.title} image ${idx + 1}`}
                           width={400}
-                          height={250}
-                          className="h-48 w-full object-contain rounded-md"
+                          height={400}
+                          className="w-full h-auto max-h-80 object-contain rounded-md"
                         />
                       </div>
                     </CarouselItem>
