@@ -43,7 +43,7 @@ export const Projects = () => {
     tags: data.tags,
     images: data.images,
     link: data.link,
-    customLinkLabel: (data as any).customLinkLabel,
+    customLinkLabel: data.customLinkLabel,
   }));
 
   // タグカラーの型を柔軟に
