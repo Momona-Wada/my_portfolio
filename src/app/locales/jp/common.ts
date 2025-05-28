@@ -30,18 +30,23 @@ const commonMessages = {
             React: "bg-sky-100  text-sky-900",
             "Next.js": "bg-neutral-200 text-neutral-800",
             Python: "bg-blue-200  text-blue-900",
-            Bootstrap: "bg-rose-100 text-rose-700",
             MongoDB: "bg-emerald-200 text-emerald-800",
             FastAPI: "bg-teal-200 text-teal-800",
             Swift: "bg-orange-200 text-orange-800",
             mySQL: "bg-blue-100  text-blue-900",
             FireStore: "bg-amber-200 text-amber-800",
+            Bootstrap: "bg-purple-200 text-purple-800",
+            JavaScript: "bg-yellow-200 text-yellow-800",
+            "Material for MkDocs": "bg-gray-200 text-gray-800",
+            "Team Project": "bg-rose-200 text-rose-800",
+            Markdown: "bg-green-100 text-green-800",
+            Documentation: "bg-pink-100 text-pink-800",
         },
         items: {
             my_body_buddy: {
                 title: "My Body Buddy",
                 description: "このアプリは、BCITのプロジェクトコースで5人チーム(私を含む)と共に開発しました。AIを活用して、ユーザー一人ひとりに最適な運動メニューや食事プランを提案する、健康促進のためのフィットネスアプリです。日々のコンディションや目標に応じたパーソナライズ機能が特徴です。",
-                tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "MongoDB"],
+                tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "MongoDB", "Team Project"],
                 images: [
                     "/images/my-body-buddy/my_body_buddy_logo.png",
                     "/images/my-body-buddy/my-body-buddy-login.png",
@@ -52,7 +57,7 @@ const commonMessages = {
             Bliss: {
                 title: "Bliss",
                 description: "Bliss Appは、心拍数(HR)、心拍変動(HRV)、呼吸数(BR)などの生体情報を解析して「Bliss Rating」を算出し、ユーザーの心身の状態を可視化するアプリです。Spotify APIとも連携しており、ユーザーの音楽の好みとApple Watchから取得したバイオメトリクスデータをもとに、Bliss Ratingを高めるのに適した楽曲を推薦します。このプロジェクトは、BCITのProject Practicumコースにおいて、BioSync Technology Ltd. をクライアントとして実施された産学連携プロジェクトです。わずか3.5週間という短期間の開発でしたが、クライアントから「よくやった」と高い評価をいただきました。",
-                tags: ["Swift", "FastAPI", "Python"],
+                tags: ["Swift", "FastAPI", "Python", "Team Project"],
                 images: ["/images/bliss/bliss-login.png","/images/bliss/apple-watch-mindfulness.jpg", "/images/bliss/bliss-app.PNG", "/images/bliss/bliss-backend-team.JPG"],
                 link: "https://youtu.be/f_xdtA08Ua4",
             },
@@ -60,7 +65,7 @@ const commonMessages = {
             skyline_zipline: {
                 title: "Skyline Zipline",
                 description: "このプロジェクトは、BCITのProject Practicumコースにおける産学連携プロジェクトで、Skyline Ziplineをクライアントに迎えて学生チームが開発を行いました。紙ベースで運用されていたZiplineの点検フォームをWebアプリにデジタル化し、現場での入力作業の効率化とデータ管理の利便性向上を実現しました。",
-                tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "mySQL", "FireStore"],
+                tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "mySQL", "FireStore", "Team Project"],
                 images: [
                     "/images/skyline-zipline/skyline-login.png",
                     "/images/skyline-zipline/skyline-dashboard.png",
@@ -79,6 +84,32 @@ const commonMessages = {
                 ],
                 link: "https://youtu.be/EZq9Z4FP73k",
             },
+
+            neighborhood_connect: {
+                title: "Neighborhood Connect",
+                description: "Neighborhood Connectは、地域のつながりを深めるためのコミュニティネットワークアプリです。イベントの企画や地域の掲示板、日常の助け合いなどを通じて、住民同士の交流を促進します。このアプリは、誰もが安心して参加できる、助け合いとつながりのある地域社会づくりをサポートします。\nこれはBCITでの初めてのグループプロジェクトであり、私が初めて作成したWebアプリケーションでもあるため、とても思い入れのある作品です。",
+                tags: ["JavaScript", "FireStore", "Bootstrap", "Team Project"],
+                images: [
+                    "/images/neighborhood-connect/neighborhood-connect-hero.png",
+                    "/images/neighborhood-connect/neighborhood-connect-dashboard.png",
+                ]
+            },
+            my_bcit_guide: {
+                title: "myBCIT ガイド",
+                description: "このプロジェクトは、BCITに入学が決まった新入生のために作成したガイドサイトです。クラスメイトと協力して、学校が始まるまでに済ませておくべき重要な手続きの中から3つを選び、Material for MkDocsで丁寧にドキュメント化しました。初めてのBCIT生活に不安を感じる学生でも、必要な情報にすぐにアクセスできるよう、わかりやすく検索しやすい構成になっています。",
+                tags: ["Markdown", "Material for MkDocs", "Documentation", "Team Project"],
+                images: [
+                    "/images/my-bcit-guide/myBCIT-guide-1.png",
+                    "/images/my-bcit-guide/myBCIT-guide-2.png",
+                    "/images/my-bcit-guide/myBCIT-guide-3.png",
+                    "/images/my-bcit-guide/myBCIT-guide-4.png",
+                    "/images/my-bcit-guide/myBCIT-guide-5.png",
+                    "/images/my-bcit-guide/myBCIT-guide-6.png",
+                    "/images/my-bcit-guide/myBCIT-guide-7.png",
+                ],
+                link: "https://tatsunorimarumo.github.io/myBCIT-Guide/",
+                customLinkLabel: "▶︎ ガイドを見る"
+            }
         },
     },
 

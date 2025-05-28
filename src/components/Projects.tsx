@@ -25,6 +25,7 @@ interface Project {
   tags: string[];
   images: string[];
   link?: string;
+  customLinkLabel?: string;
 }
 
 export const Projects = () => {
@@ -42,6 +43,7 @@ export const Projects = () => {
     tags: data.tags,
     images: data.images,
     link: data.link,
+    customLinkLabel: (data as any).customLinkLabel,
   }));
 
   // タグカラーの型を柔軟に
@@ -109,7 +111,7 @@ export const Projects = () => {
                   rel="noopener noreferrer"
                   className="inline-block font-medium text-deep-pink underline hover:text-pink-700"
                 >
-                  {messages.common.projects.view_demo}
+                  {project.customLinkLabel || messages.common.projects.view_demo}
                 </a>
               )}
             </CardContent>
