@@ -146,7 +146,7 @@ const HeroSection = () => {
 
                     <h3 className="text-xl font-semibold text-deep-pink mb-2">{messages.common.hero.contact_title}</h3>
                     <p className="text-gray-600 text-sm text-center mb-4">
-                    Ready to collaborate? Let's connect and discuss opportunities.
+                    {messages.common.hero.contact_description}
                     </p>
                     <div className="w-12 h-0.5 bg-deep-pink/40 rounded-full"></div>
                 </div>
@@ -226,8 +226,8 @@ const HeroSection = () => {
                             <Linkedin size={18} />
                         </div>
                         <div>
-                            <div className="text-deep-pink font-medium text-sm">LinkedIn</div>
-                            <div className="text-gray-600 text-xs">Professional Profile</div>
+                            <div className="text-deep-pink font-medium text-sm">{messages.common.hero.linkedin}</div>
+                            <div className="text-gray-600 text-xs">https://www.linkedin.com/in/momona-wada/</div>
                         </div>
                         </div>
                         <Link
@@ -257,7 +257,7 @@ const HeroSection = () => {
                         className="w-full flex items-center justify-center gap-2 bg-deep-pink text-white py-3 px-4 rounded-xl font-medium hover:bg-deep-pink/90 transition-colors shadow-sm hover:shadow-md"
                         >
                         <Youtube size={18} />
-                        Watch on YouTube
+                        {messages.common.hero.youtube}
                         </Link>
                     </motion.div>
                 </div>

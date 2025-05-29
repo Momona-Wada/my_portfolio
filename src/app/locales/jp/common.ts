@@ -14,11 +14,12 @@ const commonMessages = {
         projects_label: "携わったプロジェクト数",
         star: "⭐️⭐️⭐️⭐️⭐️",
         team_collaboration: "チームコラボレーション",
-        contact_title: "お問い合わせ",
-        email: "momona.9410@gmail.com",
-        github: "https://github.com/Momona-Wada",
-        linkedin: "https://www.linkedin.com/in/momona-wada/"
-
+        contact_title: "お気軽にご連絡ください",
+        contact_description: "一緒に取り組めることがありましたら、ぜひご連絡ください。ご相談やご質問も歓迎です。",
+        email: "Email",
+        github: "GitHub",
+        linkedin: "LinkedIn",
+        youtube: "Youtubeチャンネルへ"
     },
     projects: {
         heading: "プロジェクト一覧",    

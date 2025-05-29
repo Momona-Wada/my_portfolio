@@ -16,9 +16,11 @@ const commonMessages = {
         star: "⭐️⭐️⭐️⭐️⭐️",
         team_collaboration: "Team Collaboration",
         contact_title: "Let's Connect",
-        email: "momona.9410@gmail.com",
-        github: "https://github.com/Momona-Wada",
-        linkedin: "https://www.linkedin.com/in/momona-wada/"
+        contact_description: "Ready to collaborate? Let's connect and discuss opportunities.",
+        email: "Email",
+        github: "GitHub",
+        linkedin: "LinkedIn",
+        youtube: "Watch on Youtube"
 
     },
 
