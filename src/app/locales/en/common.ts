@@ -175,24 +175,29 @@ const commonMessages = {
         heading: "Fun Facts",
         items: {
             volunteer: {
-                title: "Volunteer",
-                description: "Cleaning Park Volunteer at Cottonwood Park",
-                image: "/images/momo_punta.jpeg"
+                title: "Volunteer 🧹🫧",
+                description: "I volunteer at Cottonwood Park to help keep the area clean. I pick up litter and check for graffiti or any damaged facilities, contributing to a better environment for the community.",
+                image: "/images/volunteer/cotton-wood-park.png"
             },
             hair_donation: {
-                title: "Hair Donation",
-                description: "Donated my loooong hair to an association",
-                image: "/images/momo_punta.jpeg"
+                title: "Hair Donation ✂️💇‍♀️",
+                description: "In August 2024, I donated over three years’ worth of grown hair to Wigs for Kids BC, an organization that creates wigs for children experiencing hair loss. I'm currently growing my hair again with the goal of making another donation in the future.",
+                image: "/images/hair-donation/hair.png"
             },
             dog: {
-                title: "My Dog🩷",
-                description: "My lovely dog named Punta🐶",
-                image: "/images/momo_punta.jpeg"
+                title: "My Dog 🐶🩷",
+                description: "I have a Shiba Inu named Punta. He moved to Canada with me and has been by my side ever since. Whether I'm happy or going through a hard time, he's always there for me. On weekends, we go to parks together, and I take him anywhere I can. He has ridden in cars, planes, boats, and trains. He's quite an experienced traveler!🐶",
+                image: "/images/my-dog/punta.png"
             },
             cooking: {
-                title: "Cooking",
-                description: "I like cooking!",
-                image: "/images/momo_punta.jpeg"
+                title: "Cooking 🍳👩‍🍳",
+                description: "I enjoy cooking and prepare all my meals at home. For Christmas and New Year’s in 2024, I put extra effort into making special dishes to recreate the feeling of being back in Japan. Lately, I’ve also been into baking healthy treats when I have time. My goal this year is to successfully make a birthday cake for my dog. (I actually failed last year...🥲)",
+                image: "/images/cooking/food.png"
+            },
+            workout: {
+                title: "Workout 🏋️‍♀️💪",
+                description: "I started working out in February 2025. My goal is to build enough strength to do a single pull-up! Going to the gym early in the morning helps me start the day feeling fresh and energized. It feels great💪",
+                image: "/images/workout/workout.png"
             }
         }
     }

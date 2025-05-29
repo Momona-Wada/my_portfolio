@@ -12,6 +12,7 @@ import Image from "next/image";
 import { useLanguage } from "@/app/context/LanguageContext";
 import { kottaOne } from "@/app/fonts";
 
+
 interface Fact {
     id: string;
     title: string;
@@ -36,15 +37,14 @@ const FunFacts = () => {
                 <CarouselItem key={fact.id} className="px-3 md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
                     {/* overflow-hidden で画像のはみ出し防止 */}
                     <Card className="w-full shadow-lg h-full overflow-hidden">
-                    {/* p-0 で余白をなくし、画像をカード幅に合わせる */}
-                    <CardHeader className="p-0">
+                    <CardHeader className="p-0 bg-deep-pink/20 h-60 flex items-center justify-center">
                         {fact.image ? (
                         <Image
                             src={fact.image}
                             alt={fact.title}
                             width={400}
-                            height={180}
-                            className="object-cover w-full h-44"
+                            height={240}
+                            className="w-full h-auto max-h-60 object-contain rounded-md"
                         />
                         ) : (
                         <div className="h-44 w-full flex items-center justify-center bg-gray-100">

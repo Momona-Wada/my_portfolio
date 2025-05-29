@@ -169,24 +169,29 @@ const commonMessages = {
         heading: "私のプチ情報",
             items: {
             volunteer: {
-                title: "ボランティア",
-                description: "コットンウッドパークでの清掃ボランティア",
-                image: "/images/momo_punta.jpeg"
+                title: "ボランティア 🧹🫧",
+                description: "コットンウッドパークで清掃ボランティアとして活動しています。落ちているゴミを拾ったり、落書きや設備の破損がないかを点検するなど、地域の環境美化に取り組んでいます。",
+                image: "/images/volunteer/cotton-wood-park.png"
             },
             hair_donation: {
-                title: "ヘアドネーション",
-                description: "とても長い髪を団体に寄付しました",
-                image: "/images/momo_punta.jpeg"
+                title: "ヘアドネーション ✂️💇‍♀️",
+                description: "2024年8月、3年以上大切に伸ばしてきた髪の毛をバッサリと切り、髪に悩む子どもたちのためにウィッグを製作している団体「Wigs for Kids BC」に寄付しました。現在は、再び寄付できるように髪を伸ばしています。",
+                image: "/images/hair-donation/hair.png"
             },
             dog: {
-                title: "愛犬: ぷん太🩷",
-                description: "かわいい愛犬ぷん太🐶です",
-                image: "/images/momo_punta.jpeg"
+                title: "愛犬: ぷん太 🐶🩷",
+                description: "柴犬の「ぷん太」と一緒に暮らしています。私はカナダへの移住の際も、ぷん太と一緒に渡航しました。嬉しいときも悲しいときも、どんなときでもそばにいてくれる、大切な存在です。休日には公園へ出かけたり、可能な限り一緒にお出かけして思い出を作っています。車・飛行機・船・電車など、さまざまな乗り物も経験している、旅慣れたワンコです🐶",
+                image: "/images/my-dog/punta.png"
             },
             cooking: {
-                title: "料理",
-                description: "料理をするのが好きです！",
-                image: "/images/momo_punta.jpeg"
+                title: "料理 🍳👩‍🍳",
+                description: "料理が好きで、毎日自炊しています。2024年のクリスマスやお正月には、少しでも日本にいたときの気分を味わえるように、手の込んだ料理を作って頑張りました。最近はお菓子作りにもハマっていて、時間があるときにはヘルシーなおやつをせっせと作っています。今年の目標は、愛犬の誕生日ケーキを手作りして成功させることです!(ちなみに去年は失敗しました🥲)",
+                image: "/images/cooking/food.png"
+            },
+            workout: {
+                title: "筋トレ 🏋️‍♀️💪",
+                description: "2025年2月から筋トレを始めました。目標は、懸垂が1回できるくらいの筋力をつけることです! 朝早く起きてジムで体を動かすと、1日をすごく爽やかな気持ちでスタートできて、とても気持ちがいいです💪",
+                image: "/images/workout/workout.png"
             }
         }
     }
