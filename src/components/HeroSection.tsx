@@ -74,7 +74,7 @@ const HeroSection = () => {
             <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             {/* Left column - Description */}
             <motion.div
-                className="flex flex-col justify-between h-full"
+                className="flex flex-col h-full"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
