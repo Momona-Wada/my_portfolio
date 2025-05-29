@@ -10,7 +10,7 @@ const commonMessages = {
         "このポートフォリオでは、これまでに携わってきたプロジェクトや、ちょっとした趣味などもご紹介しています。ぜひご覧ください😊",
         technolories_num: "5+",
         technologies_learned: "習得済みの言語数",
-        projects_num: "5+",
+        projects_num: "10+",
         projects_label: "携わったプロジェクト数",
         star: "⭐️⭐️⭐️⭐️⭐️",
         team_collaboration: "チームコラボレーション",

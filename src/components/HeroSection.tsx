@@ -74,6 +74,7 @@ const HeroSection = () => {
             <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             {/* Left column - Description */}
             <motion.div
+                className="flex flex-col justify-between h-full"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
@@ -95,25 +96,26 @@ const HeroSection = () => {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 1.0 }}
-                className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8"
+                className="grid grid-cols-1 sm:grid-cols-3 gap-4"
                 >
-                <div className="bg-white/50 p-4 rounded-lg shadow-sm border border-deep-pink/10">
-                    <div className="text-deep-pink font-bold text-2xl">{messages.common.hero.technolories_num}</div>
-                    <div className="text-gray-600 text-sm">{messages.common.hero.technologies_learned}</div>
-                </div>
-                <div className="bg-white/50 p-4 rounded-lg shadow-sm border border-deep-pink/10">
-                    <div className="text-deep-pink font-bold text-2xl">{messages.common.hero.projects_num}</div>
-                    <div className="text-gray-600 text-sm">
-                    {messages.common.hero.projects_label || "Projects Completed"}
+                    <div className="bg-white/50 p-4 rounded-lg shadow-sm border border-deep-pink/10">
+                        <div className="text-deep-pink font-bold text-2xl">{messages.common.hero.technolories_num}</div>
+                        <div className="text-gray-600 text-sm">{messages.common.hero.technologies_learned}</div>
                     </div>
-                </div>
-                <div className="bg-white/50 p-4 rounded-lg shadow-sm border border-deep-pink/10">
-                    <div className="text-deep-pink font-bold text-2xl">{messages.common.hero.star || "30+"}</div>
-                    <div className="text-gray-600 text-sm">
-                    {messages.common.hero.team_collaboration || "Happy Clients"}
+                    <div className="bg-white/50 p-4 rounded-lg shadow-sm border border-deep-pink/10">
+                        <div className="text-deep-pink font-bold text-2xl">{messages.common.hero.projects_num}</div>
+                        <div className="text-gray-600 text-sm">
+                        {messages.common.hero.projects_label || "Projects Completed"}
+                        </div>
                     </div>
-                </div>
+                    <div className="bg-white/50 p-4 rounded-lg shadow-sm border border-deep-pink/10">
+                        <div className="text-deep-pink font-bold text-2xl">{messages.common.hero.star || "30+"}</div>
+                        <div className="text-gray-600 text-sm">
+                        {messages.common.hero.team_collaboration || "Happy Clients"}
+                        </div>
+                    </div>
                 </motion.div>
+                
             </motion.div>
 
             {/* Right column - Let's Connect with Profile Image */}
