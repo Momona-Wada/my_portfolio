@@ -21,9 +21,7 @@ const commonMessages = {
 
     },
     projects: {
-        heading: "プロジェクト一覧",
-        view_demo: "▶︎ デモを見る",
-    
+        heading: "プロジェクト一覧",    
         tagColors: {
             TypeScript: "bg-blue-200  text-blue-800",
             "Tailwind CSS": "bg-sky-200  text-sky-800",
@@ -51,7 +49,12 @@ const commonMessages = {
                     "/images/my-body-buddy/my_body_buddy_logo.png",
                     "/images/my-body-buddy/my-body-buddy-login.png",
                 ],
-                link: "https://www.youtube.com/watch?v=48NVdBRSGUI",
+                links: [
+                    {
+                        label: "▶︎ デモを見る",
+                        url: "https://www.youtube.com/watch?v=48NVdBRSGUI",
+                    },
+                ],
             },
     
             Bliss: {
@@ -59,7 +62,12 @@ const commonMessages = {
                 description: "Bliss Appは、心拍数(HR)、心拍変動(HRV)、呼吸数(BR)などの生体情報を解析して「Bliss Rating」を算出し、ユーザーの心身の状態を可視化するアプリです。Spotify APIとも連携しており、ユーザーの音楽の好みとApple Watchから取得したバイオメトリクスデータをもとに、Bliss Ratingを高めるのに適した楽曲を推薦します。このプロジェクトは、BCITのProject Practicumコースにおいて、BioSync Technology Ltd. をクライアントとして実施された産学連携プロジェクトです。わずか3.5週間という短期間の開発でしたが、クライアントから「よくやった」と高い評価をいただきました。",
                 tags: ["Swift", "FastAPI", "Python", "Team Project"],
                 images: ["/images/bliss/bliss-login.png","/images/bliss/apple-watch-mindfulness.jpg", "/images/bliss/bliss-app.PNG", "/images/bliss/bliss-backend-team.JPG"],
-                link: "https://youtu.be/f_xdtA08Ua4",
+                links: [
+                    {
+                        label: "▶︎ デモを見る",
+                        url: "https://youtu.be/f_xdtA08Ua4",
+                    },
+                ],
             },
     
             skyline_zipline: {
@@ -82,7 +90,12 @@ const commonMessages = {
                     "/images/starbucks-drink-finder/starbucks-sweet.png",
                     "/images/starbucks-drink-finder/starbucks-cafeine.png",
                 ],
-                link: "https://youtu.be/EZq9Z4FP73k",
+                links: [
+                    {
+                        label: "▶︎ デモを見る",
+                        url: "https://youtu.be/EZq9Z4FP73k",
+                    },
+                ],
             },
 
             neighborhood_connect: {
@@ -92,6 +105,10 @@ const commonMessages = {
                 images: [
                     "/images/neighborhood-connect/neighborhood-connect-hero.png",
                     "/images/neighborhood-connect/neighborhood-connect-dashboard.png",
+                ],
+                links: [
+                    {label: "▶︎ GitHub Repo", url: "https://github.com/TommyJu/neighbourhood_connect"},
+                    {label: "▶︎ アプリを見る", url: "https://comp1800-dtc11.web.app/"},
                 ]
             },
             my_bcit_guide: {
@@ -99,6 +116,7 @@ const commonMessages = {
                 description: "このプロジェクトは、BCITに入学が決まった新入生のために作成したガイドサイトです。クラスメイトと協力して、学校が始まるまでに済ませておくべき重要な手続きの中から3つを選び、Material for MkDocsで丁寧にドキュメント化しました。初めてのBCIT生活に不安を感じる学生でも、必要な情報にすぐにアクセスできるよう、わかりやすく検索しやすい構成になっています。",
                 tags: ["Markdown", "Material for MkDocs", "Documentation", "Team Project"],
                 images: [
+                    "/images/my-bcit-guide/myBCIT-guide-8.png",
                     "/images/my-bcit-guide/myBCIT-guide-1.png",
                     "/images/my-bcit-guide/myBCIT-guide-2.png",
                     "/images/my-bcit-guide/myBCIT-guide-3.png",
@@ -107,9 +125,26 @@ const commonMessages = {
                     "/images/my-bcit-guide/myBCIT-guide-6.png",
                     "/images/my-bcit-guide/myBCIT-guide-7.png",
                 ],
-                link: "https://tatsunorimarumo.github.io/myBCIT-Guide/",
-                customLinkLabel: "▶︎ ガイドを見る"
-            }
+                links: [
+                    {label: "▶︎ GitHub Repo", url: "https://github.com/TatsunoriMarumo/myBCIT-Guide"},
+                    {label: "▶︎ ガイドを見る", url: "https://tatsunorimarumo.github.io/myBCIT-Guide/"},
+                ]
+            },
+            animal_adoption_predictor: {
+                title: "動物譲渡予測モデル",
+                description: "このプロジェクトでは、オースティン動物保護センターの実データを用いて、動物の譲渡結果を予測するモデルを構築しました。探索的データ分析の後、Random Forest・バギング・スタッキング・Votingなどのアンサンブル学習手法やロジスティック回帰を使用し、「譲渡された」「飼い主に返還された」「その他(移送・安楽死など)」の結果を分類しました。最終的に、92.2%の精度を出したRandom Forestモデルが最も有効であると判断されました。年齢・収容理由・避妊/去勢の有無・滞在日数といった特徴量が結果に大きく影響することがわかり、シェルターの意思決定に役立つデータ駆動型のアプローチを示しています。",
+                tags: ["Documentation", "Python"],
+                images: [
+                    "/images/animal-adoption-predictor/animal-adoption-1.png",
+                    "/images/animal-adoption-predictor/animal-adoption-2.png",
+                    "/images/animal-adoption-predictor/animal-adoption-3.png",
+                    "/images/animal-adoption-predictor/animal-adoption-4.png",
+                ],
+                links: [
+                    {"label": "▶︎ GitHub Repo", url: "https://github.com/..." },
+                    { "label": "▶︎ ドキュメントを見る", url: "https://docs.google.com/document/d/1Mk4sw6HC7mrhXcQ4xEQwzzvBm6uPE7C6sCBsNA2R-xw/edit?usp=sharing" }
+                ]
+            },
         },
     },
 

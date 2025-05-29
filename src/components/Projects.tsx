@@ -18,6 +18,8 @@ import clsx from "clsx";
 /**
  * プロジェクト型定義
  */
+interface ExternalLink { label: string; url: string; }
+
 interface Project {
   id: string;
   title: string;
@@ -25,7 +27,7 @@ interface Project {
   tags: string[];
   images: string[];
   link?: string;
-  customLinkLabel?: string;
+  links?: ExternalLink[];
 }
 
 export const Projects = () => {
@@ -42,8 +44,7 @@ export const Projects = () => {
     description: data.description,
     tags: data.tags,
     images: data.images,
-    link: data.link,
-    customLinkLabel: data.customLinkLabel,
+    links: data.links ?? [],
   }));
 
   // タグカラーの型を柔軟に
@@ -104,15 +105,20 @@ export const Projects = () => {
               <p className="leading-relaxed text-deep-pink/80">
                 {project.description}
               </p>
-              {project.link && (
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block font-medium text-deep-pink underline hover:text-pink-700"
-                >
-                  {project.customLinkLabel || messages.common.projects.view_demo}
-                </a>
+              {!!project.links?.length && (
+                <div className="flex gap-3 flex-wrap">
+                  {project.links.map((l) => (
+                    <a
+                      key={l.url}
+                      href={l.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block font-medium text-deep-pink underline hover:text-pink-700"
+                    >
+                      {l.label}
+                    </a>
+                  ))}
+                </div>
               )}
             </CardContent>
           </Card>

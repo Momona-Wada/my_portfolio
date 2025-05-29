@@ -24,7 +24,6 @@ const commonMessages = {
 
     projects: {
         heading: "My Projects",
-        view_demo: "▶︎ View Demo",
 
       // バッジごとの色を統一したい場合はここで定義
         tagColors: {
@@ -42,7 +41,7 @@ const commonMessages = {
             JavaScript: "bg-yellow-200 text-yellow-800",
             "Material for MkDocs": "bg-gray-200 text-gray-800",
             Markdown: "bg-green-100 text-green-800",
-            Documentation: "bg-slate-100 text-slate-800",
+            Documentation: "bg-pink-100 text-pink-800",
         },
 
       /* ==== 1 プロジェクト = 1 キー ==== */
@@ -55,14 +54,24 @@ const commonMessages = {
                 "/images/my-body-buddy/my_body_buddy_logo.png",
                 "/images/my-body-buddy/my-body-buddy-login.png",
             ],
-            link: "https://www.youtube.com/watch?v=48NVdBRSGUI",
+            links: [
+                    {
+                        label: "▶︎ View Demo",
+                        url: "https://www.youtube.com/watch?v=48NVdBRSGUI",
+                    },
+                ],
             },
             Bliss: {
                 title: "Bliss",
                 description: "Bliss App is a wellness app that uses biometric data such as heart rate, heart rate variability, and breathing rate to calculate a Bliss Rating. The data is collected from Apple Watch and stored on the iPhone. Based on this data and the user’s music preferences, the app connects with Spotify to recommend songs that support well-being. The project was completed in 3.5 weeks for BioSync Technology Ltd. as part of BCIT’s Project Practicum and received positive feedback from the client.",
                 tags: ["Swift", "FastAPI", "Python"],
                 images: ["/images/bliss/bliss-login.png","/images/bliss/apple-watch-mindfulness.jpg", "/images/bliss/bliss-app.PNG", "/images/bliss/bliss-backend-team.JPG"],
-                link: "https://youtu.be/f_xdtA08Ua4",
+                links: [
+                    {
+                        label: "▶︎ View Demo",
+                        url: "https://youtu.be/f_xdtA08Ua4",
+                    },
+                ],
             },
 
             skyline_zipline: {
@@ -85,7 +94,12 @@ const commonMessages = {
                     "/images/starbucks-drink-finder/starbucks-sweet.png",
                     "/images/starbucks-drink-finder/starbucks-cafeine.png",
                 ],
-                link: "https://youtu.be/EZq9Z4FP73k",
+                links: [
+                    {
+                        label: "▶︎ View Demo",
+                        url: "https://youtu.be/EZq9Z4FP73k",
+                    },
+                ],
             },
             neighborhood_connect: {
                 title: "Neighborhood Connect",
@@ -94,6 +108,10 @@ const commonMessages = {
                 images: [
                     "/images/neighborhood-connect/neighborhood-connect-hero.png",
                     "/images/neighborhood-connect/neighborhood-connect-dashboard.png",
+                ],
+                links: [
+                    {label: "▶︎ GitHub Repo", url: "https://github.com/TommyJu/neighbourhood_connect"},
+                    {label: "▶︎ Visit App", url: "https://comp1800-dtc11.web.app/"},
                 ]
             },
             my_bcit_guide: {
@@ -109,9 +127,26 @@ const commonMessages = {
                     "/images/my-bcit-guide/myBCIT-guide-6.png",
                     "/images/my-bcit-guide/myBCIT-guide-7.png",
                 ],
-                link: "https://tatsunorimarumo.github.io/myBCIT-Guide/",
-                customLinkLabel: "▶︎ Visit Guide"
-            }
+                links: [
+                    {label: "▶︎ GitHub Repo", url: "https://github.com/TatsunoriMarumo/myBCIT-Guide"},
+                    {label: "▶︎ Visit Guide", url: "https://tatsunorimarumo.github.io/myBCIT-Guide/"},
+                ]
+            },
+            animal_adoption_predictor: {
+                title: "Animal Adoption Predictor",
+                description: "This project explores predictive modeling to support animal adoption outcomes using real-world data from the Austin Animal Center. After performing exploratory data analysis, several ensemble learning methods (Random Forest, Bagging, Voting, Stacked models) and Logistic Regression were applied to predict whether an animal would be adopted, returned to its owner, or experience other outcomes (e.g., transfer or euthanasia). The Random Forest model achieved the highest accuracy (92.2%) and was selected as the preferred model. Key features such as age, intake type, fixed (spay/neuter) status, and length of stay were found to significantly influence outcomes. This project emphasizes data-driven solutions to improve shelter decision-making.",
+                tags: ["Documentation", "Python"],
+                images: [
+                    "/images/animal-adoption-predictor/animal-adoption-1.png",
+                    "/images/animal-adoption-predictor/animal-adoption-2.png",
+                    "/images/animal-adoption-predictor/animal-adoption-3.png",
+                    "/images/animal-adoption-predictor/animal-adoption-4.png",
+                ],
+                links: [
+                    {"label": "▶︎ GitHub Repo", url: "https://github.com/..." },
+                    { "label": "▶︎ View Document", url: "https://docs.google.com/document/d/1Mk4sw6HC7mrhXcQ4xEQwzzvBm6uPE7C6sCBsNA2R-xw/edit?usp=sharing" }
+                ]
+            },
             
 
 
