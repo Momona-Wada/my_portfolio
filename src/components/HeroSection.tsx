@@ -176,7 +176,7 @@ const HeroSection = () => {
 
                                     {/* LinkedIn */}
                                     <Link
-                                        href="https://www.linkedin.com/in/YOUR_LINKEDIN_HERE"
+                                        href="https://www.linkedin.com/in/momona-wada/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="group flex items-center gap-4 bg-white/60 p-4 rounded-lg shadow-sm border border-deep-pink/10 hover:border-deep-pink/30 hover:shadow-md transition-all duration-300"
