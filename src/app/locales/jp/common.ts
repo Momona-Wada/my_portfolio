@@ -39,6 +39,8 @@ const commonMessages = {
             "Team Project": "bg-rose-200 text-rose-800",
             Markdown: "bg-green-100 text-green-800",
             Documentation: "bg-pink-100 text-pink-800",
+            C: "bg-indigo-200 text-indigo-900",
+            HTML: "bg-red-200 text-red-800",
         },
         items: {
             my_body_buddy: {
@@ -101,7 +103,7 @@ const commonMessages = {
             neighborhood_connect: {
                 title: "Neighborhood Connect",
                 description: "Neighborhood Connectは、地域のつながりを深めるためのコミュニティネットワークアプリです。イベントの企画や地域の掲示板、日常の助け合いなどを通じて、住民同士の交流を促進します。このアプリは、誰もが安心して参加できる、助け合いとつながりのある地域社会づくりをサポートします。\nこれはBCITでの初めてのグループプロジェクトであり、私が初めて作成したWebアプリケーションでもあるため、とても思い入れのある作品です。",
-                tags: ["JavaScript", "FireStore", "Bootstrap", "Team Project"],
+                tags: ["HTML","JavaScript", "FireStore", "Bootstrap", "Team Project"],
                 images: [
                     "/images/neighborhood-connect/neighborhood-connect-hero.png",
                     "/images/neighborhood-connect/neighborhood-connect-dashboard.png",
@@ -145,6 +147,21 @@ const commonMessages = {
                     { "label": "▶︎ ドキュメントを見る", url: "https://docs.google.com/document/d/1Mk4sw6HC7mrhXcQ4xEQwzzvBm6uPE7C6sCBsNA2R-xw/edit?usp=sharing" }
                 ]
             },
+            morse_code_translator: {
+                title: "モールス信号変換プログラム",
+                description: "C言語を用いて、ユーザーからの入力をモールス信号に変換するプログラムを開発しました。出力方法は「音声」と「画面の背景色の切り替え」の2種類があります。プレゼンテーションでは、チームメイトが「携帯電話のない状況で船に一人取り残されている」という設定の寸劇を行い、モールス信号変換プログラムを使って助けを呼ぶ様子を再現しました。この創意工夫のある発表と詳細なコード解説は、クラスメイトやインストラクターから高く評価され、チームとして100％のスコアを獲得しました。",
+                tags: ["C", "Team Project"],
+                images: [
+                    "/images/morse-code-translator/morse-code-translator-1.png",
+                    "/images/morse-code-translator/morse-code-translator-2.png",
+                    "/images/morse-code-translator/morse-code-translator-3.png",
+                    "/images/morse-code-translator/morse-code-translator-4.png",
+                ],
+                links: [
+                    {"label": "▶︎ GitHub Repo", "url": "https://github.com/Momona-Wada/MorseCodeTranslator"},
+
+                ]
+            }
         },
     },
 

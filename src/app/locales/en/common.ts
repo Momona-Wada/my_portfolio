@@ -40,8 +40,11 @@ const commonMessages = {
             Bootstrap: "bg-purple-200 text-purple-800",
             JavaScript: "bg-yellow-200 text-yellow-800",
             "Material for MkDocs": "bg-gray-200 text-gray-800",
+            "Team Project": "bg-rose-200 text-rose-800",
             Markdown: "bg-green-100 text-green-800",
             Documentation: "bg-pink-100 text-pink-800",
+            C: "bg-indigo-200 text-indigo-900",
+            HTML: "bg-red-200 text-red-800",
         },
 
       /* ==== 1 プロジェクト = 1 キー ==== */
@@ -49,7 +52,7 @@ const commonMessages = {
             my_body_buddy: {
             title: "My Body Buddy",
             description: "This app was developed as part of a BCIT project course by a team of five members including myself. It is an AI-powered fitness app that supports healthier living by suggesting personalized workout and meal plans tailored to each user. The app focuses on daily condition tracking and goal-based recommendations.",
-            tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "MongoDB"],
+            tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "MongoDB", "Team Project"],
             images: [
                 "/images/my-body-buddy/my_body_buddy_logo.png",
                 "/images/my-body-buddy/my-body-buddy-login.png",
@@ -64,7 +67,7 @@ const commonMessages = {
             Bliss: {
                 title: "Bliss",
                 description: "Bliss App is a wellness app that uses biometric data such as heart rate, heart rate variability, and breathing rate to calculate a Bliss Rating. The data is collected from Apple Watch and stored on the iPhone. Based on this data and the user’s music preferences, the app connects with Spotify to recommend songs that support well-being. The project was completed in 3.5 weeks for BioSync Technology Ltd. as part of BCIT’s Project Practicum and received positive feedback from the client.",
-                tags: ["Swift", "FastAPI", "Python"],
+                tags: ["Swift", "FastAPI", "Python", "Team Project"],
                 images: ["/images/bliss/bliss-login.png","/images/bliss/apple-watch-mindfulness.jpg", "/images/bliss/bliss-app.PNG", "/images/bliss/bliss-backend-team.JPG"],
                 links: [
                     {
@@ -77,7 +80,7 @@ const commonMessages = {
             skyline_zipline: {
                 title: "Skyline Zipline",
                 description: "This project was conducted as an industry–academia collaboration in BCIT’s Project Practicum course, with Skyline Zipline as our client and a student team leading the development. We created a web application that digitizes the previously paper-based Zipline inspection forms, streamlining on-site data entry and improving overall data management convenience.",
-                tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "mySQL", "FireStore"],
+                tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "mySQL", "FireStore", "Team Project"],
                 images: [
                     "/images/skyline-zipline/skyline-login.png",
                     "/images/skyline-zipline/skyline-dashboard.png",
@@ -104,7 +107,7 @@ const commonMessages = {
             neighborhood_connect: {
                 title: "Neighborhood Connect",
                 description: "Neighborhood Connect is a community networking app that helps residents build stronger relationships within their local area. With features that support event organizing, neighborhood discussions, and everyday assistance, the platform promotes communication, support, and connection. By making neighborhood life more interactive and inclusive, the app fosters a safer, more united community for everyone. \nThis was not only my first group project at BCIT, but also the very first web application I ever built — which makes it especially meaningful to me.",
-                tags: ["JavaScript", "FireStore", "Bootstrap"],
+                tags: ["HTML","JavaScript", "FireStore", "Bootstrap", "Team Project"],
                 images: [
                     "/images/neighborhood-connect/neighborhood-connect-hero.png",
                     "/images/neighborhood-connect/neighborhood-connect-dashboard.png",
@@ -117,7 +120,7 @@ const commonMessages = {
             my_bcit_guide: {
                 title: "myBCIT Guide",
                 description: "This project is a user guide website created with Material for MkDocs to support new BCIT students. Together with a classmate, I documented three essential steps that students need to complete before starting school. The guide is designed to be simple, searchable, and beginner-friendly, helping students feel more prepared and confident before their first day at BCIT.",
-                tags: ["Markdown", "Material for MkDocs", "Documentation"],
+                tags: ["Markdown", "Material for MkDocs", "Documentation", "Team Project"],
                 images: [
                     "/images/my-bcit-guide/myBCIT-guide-1.png",
                     "/images/my-bcit-guide/myBCIT-guide-2.png",
@@ -147,6 +150,21 @@ const commonMessages = {
                     { "label": "▶︎ View Document", url: "https://docs.google.com/document/d/1Mk4sw6HC7mrhXcQ4xEQwzzvBm6uPE7C6sCBsNA2R-xw/edit?usp=sharing" }
                 ]
             },
+            morse_code_translator: {
+                title: "Morse Code Translator",
+                description: "We developed a program in C language that converts user input into Morse code. It includes two output methods: sound and changing the background color of the screen. During our presentation, we performed a short skit in which one teammate pretended to be stranded alone on a boat with no phone but with a laptop, using our Morse code converter to call for help. The creative presentation, along with our detailed code explanation, received high praise from classmates and the instructor, and our team achieved a perfect score.",
+                tags: ["C", "Team Project"],
+                images: [
+                    "/images/morse-code-translator/morse-code-translator-1.png",
+                    "/images/morse-code-translator/morse-code-translator-2.png",
+                    "/images/morse-code-translator/morse-code-translator-3.png",
+                    "/images/morse-code-translator/morse-code-translator-4.png",
+                ],
+                links: [
+                    {"label": "▶︎ GitHub Repo", "url": "https://github.com/Momona-Wada/MorseCodeTranslator"},
+
+                ]
+            }
             
 
 
