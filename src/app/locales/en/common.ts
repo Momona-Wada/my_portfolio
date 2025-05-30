@@ -1,7 +1,7 @@
 const commonMessages = {
     hero: {
         name: "Momona Wada",
-        title: "Developer/Data Analysist",
+        title: "Developer/Data Analyst",
         about_me: "About Me",
         description:
         "Thank you for visiting my portfolio!\n" +
