@@ -108,7 +108,7 @@ const commonMessages = {
             },
             neighborhood_connect: {
                 title: "Neighborhood Connect",
-                description: "Neighborhood Connect is a community networking app that helps residents build stronger relationships within their local area. With features that support event organizing, neighborhood discussions, and everyday assistance, the platform promotes communication, support, and connection. By making neighborhood life more interactive and inclusive, the app fosters a safer, more united community for everyone. \nThis was not only my first group project at BCIT, but also the very first web application I ever built — which makes it especially meaningful to me.",
+                description: "Neighborhood Connect is a community networking app that helps residents build stronger relationships within their local area. With features that support event organizing, neighborhood discussions, and everyday assistance, the platform promotes communication, support, and connection. By making neighborhood life more interactive and inclusive, the app fosters a safer, more united community for everyone. \nThis was not only my first group project at BCIT, but also the very first web application I ever built, which makes it especially meaningful to me.",
                 tags: ["HTML","JavaScript", "FireStore", "Bootstrap", "Team Project"],
                 images: [
                     "/images/neighborhood-connect/neighborhood-connect-hero.png",
