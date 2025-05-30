@@ -6,9 +6,9 @@ const commonMessages = {
         description:
         "Thank you for visiting my portfolio!\n" +
         "I'm a junior IT engineer currently living in Canada for the fourth year. I completed the Computer Systems Technology program at BCIT in May 2025 and am currently seeking job opportunities.\n" +
-        "At BCIT, I chose the Predictive Analytics option, where I worked on data analysis, model building, and creating documentation based on the results. I believe that building a model is not the end goal — clearly organizing and documenting the outcomes is just as important. I enjoy and excel at this process of turning insights into structured, written materials.\n" +
+        "At BCIT, I chose the Predictive Analytics option, where I worked on data analysis, model building, and creating documentation based on the results. I believe that building a model is not the end goal; it is equally important to clearly organize and document the outcomes.\n" +
         "My strengths include smooth communication within teams, strong time management skills, and the ability to consider others' perspectives when working. I always strive to handle tasks and projects with care while being considerate of both clients and team members.\n" +
-        "In this portfolio, you'll find the projects I’ve worked on and a few of my personal interests. I hope you enjoy exploring it! 😊",
+        "Outside of tech, I enjoy working out, cooking, and spending time with my dog Punta, who moved to Canada with me. I'm passionate about creating tools that are not only functional but also make users feel supported and understood. I hope you enjoy exploring my work!",
         technolories_num: "5+",
         technologies_learned: "Technologies Learned",
         projects_num: "10+",
@@ -53,7 +53,7 @@ const commonMessages = {
         items: {
             my_body_buddy: {
             title: "My Body Buddy",
-            description: "This app was developed as part of a BCIT project course by a team of five members including myself. It is an AI-powered fitness app that supports healthier living by suggesting personalized workout and meal plans tailored to each user. The app focuses on daily condition tracking and goal-based recommendations.",
+            description: "AI-powered fitness app developed by a team of five at BCIT. The app recommends personalized workouts and meal plans based on daily condition and user goals. We focused on usability and wellness tracking. This project highlighted my ability to collaborate and deliver on health-focused solutions.",
             tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "MongoDB", "Team Project"],
             images: [
                 "/images/my-body-buddy/my_body_buddy_logo.png",
@@ -68,7 +68,7 @@ const commonMessages = {
             },
             Bliss: {
                 title: "Bliss",
-                description: "Bliss App is a wellness app that uses biometric data such as heart rate, heart rate variability, and breathing rate to calculate a Bliss Rating. The data is collected from Apple Watch and stored on the iPhone. Based on this data and the user’s music preferences, the app connects with Spotify to recommend songs that support well-being. The project was completed in 3.5 weeks for BioSync Technology Ltd. as part of BCIT’s Project Practicum and received positive feedback from the client.",
+                description: "Wellness app built using Apple Watch biometric data and Spotify API. It calculates a Bliss Rating and recommends songs based on the user’s physical and emotional state. Developed for BioSync Technology Ltd. in 3.5 weeks during BCIT’s practicum. The client praised our clear documentation and smooth user experience.",
                 tags: ["Swift", "FastAPI", "Python", "Team Project"],
                 images: ["/images/bliss/bliss-login.png","/images/bliss/apple-watch-mindfulness.jpg", "/images/bliss/bliss-app.PNG", "/images/bliss/bliss-backend-team.JPG"],
                 links: [
@@ -81,7 +81,7 @@ const commonMessages = {
 
             skyline_zipline: {
                 title: "Skyline Zipline",
-                description: "This project was conducted as an industry–academia collaboration in BCIT’s Project Practicum course, with Skyline Zipline as our client and a student team leading the development. We created a web application that digitizes the previously paper-based Zipline inspection forms, streamlining on-site data entry and improving overall data management convenience.",
+                description: "Digitized paper-based inspection forms for Skyline Zipline through a web app. Developed as a team project in BCIT’s practicum course. Improved on-site workflow and made data management more efficient. I focused on form design, database structure, and frontend responsiveness.",
                 tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "mySQL", "FireStore", "Team Project"],
                 images: [
                     "/images/skyline-zipline/skyline-login.png",
@@ -92,7 +92,7 @@ const commonMessages = {
 
             starbucks_drink_finder: {
                 title: "Starbuck Drink Finder",
-                description: "Starbucks Drink Finder is a web application that recommends the best Starbucks drinks based on user preferences. It analyzes natural language input to predict tags such as 'sweet' or 'low calorie,' and ranks drinks by a calculated health score. This project received a perfect score (100%) in a BCIT course and was praised by the instructor for its clarity and the high quality of the demo video.",
+                description: "A web app that recommends Starbucks drinks based on natural language input. Uses a tag prediction model and health scoring to sort options. Received a perfect score in a BCIT course and high praise for its clarity and presentation. Built with React and Python for smooth UX.",
                 tags: ["React", "Tailwind CSS", "Python"],
                 images: [
                     "/images/starbucks-drink-finder/starbucks-title.png",
@@ -108,7 +108,7 @@ const commonMessages = {
             },
             neighborhood_connect: {
                 title: "Neighborhood Connect",
-                description: "Neighborhood Connect is a community networking app that helps residents build stronger relationships within their local area. With features that support event organizing, neighborhood discussions, and everyday assistance, the platform promotes communication, support, and connection. By making neighborhood life more interactive and inclusive, the app fosters a safer, more united community for everyone. \nThis was not only my first group project at BCIT, but also the very first web application I ever built, which makes it especially meaningful to me.",
+                description: "A community networking app that helps neighbors stay connected and organized. Supports event planning, communication, and shared support. This was my first group project and first ever web app, which makes it very special to me. Our team collaborated on all aspects of the project, from planning to development.",
                 tags: ["HTML","JavaScript", "FireStore", "Bootstrap", "Team Project"],
                 images: [
                     "/images/neighborhood-connect/neighborhood-connect-hero.png",
@@ -121,7 +121,7 @@ const commonMessages = {
             },
             my_bcit_guide: {
                 title: "myBCIT Guide",
-                description: "This project is a user guide website created with Material for MkDocs to support new BCIT students. Together with a classmate, I documented three essential steps that students need to complete before starting school. The guide is designed to be simple, searchable, and beginner-friendly, helping students feel more prepared and confident before their first day at BCIT.",
+                description: "A user guide website created with Material for MkDocs to help incoming BCIT students. Covered three key tasks to complete before school starts. Designed to be searchable and beginner-friendly. Collaborated with a classmate to write and organize the content clearly.",
                 tags: ["Markdown", "Material for MkDocs", "Documentation", "Team Project"],
                 images: [
                     "/images/my-bcit-guide/myBCIT-guide-1.png",
@@ -139,7 +139,7 @@ const commonMessages = {
             },
             animal_adoption_predictor: {
                 title: "Animal Adoption Predictor",
-                description: "This project explores predictive modeling to support animal adoption outcomes using real-world data from the Austin Animal Center. After performing exploratory data analysis, several ensemble learning methods (Random Forest, Bagging, Voting, Stacked models) and Logistic Regression were applied to predict whether an animal would be adopted, returned to its owner, or experience other outcomes (e.g., transfer or euthanasia). The Random Forest model achieved the highest accuracy (92.2%) and was selected as the preferred model. Key features such as age, intake type, fixed (spay/neuter) status, and length of stay were found to significantly influence outcomes. This project emphasizes data-driven solutions to improve shelter decision-making.",
+                description: "Built machine learning models using Austin Animal Center data to predict adoption outcomes. Used ensemble methods and logistic regression; Random Forest achieved 92.2% accuracy. Key features included age, intake type, and spay/neuter status. The project focused on data-driven decision-making for shelters.",
                 tags: ["Documentation", "Python"],
                 images: [
                     "/images/animal-adoption-predictor/animal-adoption-1.png",
@@ -154,7 +154,7 @@ const commonMessages = {
             },
             morse_code_translator: {
                 title: "Morse Code Translator",
-                description: "We developed a program in C language that converts user input into Morse code. It includes two output methods: sound and changing the background color of the screen. During our presentation, we performed a short skit in which one teammate pretended to be stranded alone on a boat with no phone but with a laptop, using our Morse code converter to call for help. The creative presentation, along with our detailed code explanation, received high praise from classmates and the instructor, and our team achieved a perfect score.",
+                description: "Developed a C program that converts input to Morse code with sound and visual output. Included a fun skit for presentation where a stranded teammate used the tool to call for help. The creative delivery and solid code earned a perfect score. It showcased our teamwork and storytelling.",
                 tags: ["C", "Team Project"],
                 images: [
                     "/images/morse-code-translator/morse-code-translator-1.png",
@@ -178,27 +178,27 @@ const commonMessages = {
         items: {
             volunteer: {
                 title: "Volunteer 🧹🫧",
-                description: "I volunteer at Cottonwood Park to help keep the area clean. I pick up litter and check for graffiti or any damaged facilities, contributing to a better environment for the community.",
+                description: "I volunteer at Cottonwood Park to help maintain a clean and safe environment. I pick up litter, check for graffiti or damage, and report any issues. Seeing children playing happily in the park while I work gives me a sense of purpose. I believe even small efforts can make a meaningful impact on the community.",
                 image: "/images/volunteer/cotton-wood-park.png"
             },
             hair_donation: {
                 title: "Hair Donation ✂️💇‍♀️",
-                description: "In August 2024, I donated over three years’ worth of grown hair to Wigs for Kids BC, an organization that creates wigs for children experiencing hair loss. I'm currently growing my hair again with the goal of making another donation in the future.",
+                description: "In August 2024, I donated over three years’ worth of grown hair to Wigs for Kids BC, which provides wigs for children facing hair loss. It felt meaningful to support someone’s confidence and self-expression through this small act. I'm now growing my hair again for another future donation. Giving back in this way has become one of my personal missions.",
                 image: "/images/hair-donation/hair.png"
             },
             dog: {
                 title: "My Dog 🐶🩷",
-                description: "I have a Shiba Inu named Punta. He moved to Canada with me and has been by my side ever since. Whether I'm happy or going through a hard time, he's always there for me. On weekends, we go to parks together, and I take him anywhere I can. He has ridden in cars, planes, boats, and trains. He's quite an experienced traveler!🐶",
+                description: "My Shiba Inu, Punta, has been with me through many life changes, including the move to Canada. He is a loyal companion and plays an important role in my everyday life. On weekends, we enjoy visiting parks, going on road trips, and spending time outdoors together. He has traveled by car, plane, boat, and train, making him a truly adventurous pup.",
                 image: "/images/my-dog/punta.png"
             },
             cooking: {
                 title: "Cooking 🍳👩‍🍳",
-                description: "I enjoy cooking and prepare all my meals at home. For Christmas and New Year’s in 2024, I put extra effort into making special dishes to recreate the feeling of being back in Japan. Lately, I’ve also been into baking healthy treats when I have time. My goal this year is to successfully make a birthday cake for my dog. (I actually failed last year...🥲)",
+                description: "I cook all my meals at home and enjoy recreating traditional Japanese dishes, especially during holidays like Christmas and New Year’s. Lately, I’ve also been trying out healthy baking, using ingredients like oats and bananas. Cooking helps me relax and connect with my roots. This year, my goal is to successfully bake a birthday cake for my dog!",
                 image: "/images/cooking/food.png"
             },
             workout: {
                 title: "Workout 🏋️‍♀️💪",
-                description: "I started working out in February 2025. My goal is to build enough strength to do a single pull-up! Going to the gym early in the morning helps me start the day feeling fresh and energized. It feels great💪",
+                description: "I started working out in February 2025, and it’s become part of my morning routine. Hitting the gym helps me start the day feeling refreshed and focused. My current goal is to be able to do a full pull-up. I’m enjoying the challenge and proud of the small progress I make each week.",
                 image: "/images/workout/workout.png"
             }
         }

@@ -46,7 +46,7 @@ const commonMessages = {
         items: {
             my_body_buddy: {
                 title: "My Body Buddy",
-                description: "このアプリは、BCITのプロジェクトコースで5人チーム(私を含む)と共に開発しました。AIを活用して、ユーザー一人ひとりに最適な運動メニューや食事プランを提案する、健康促進のためのフィットネスアプリです。日々のコンディションや目標に応じたパーソナライズ機能が特徴です。",
+                description: "AIを活用したフィットネスアプリで、BCITの5人チームで開発しました。ユーザーの体調や目標に応じて、個別の運動や食事プランを提案します。使いやすさや健康管理のしやすさに重点を置いて設計しました。チームで協力しながら、健康促進に役立つソリューションを形にしました。",
                 tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "MongoDB", "Team Project"],
                 images: [
                     "/images/my-body-buddy/my_body_buddy_logo.png",
@@ -62,7 +62,7 @@ const commonMessages = {
     
             Bliss: {
                 title: "Bliss",
-                description: "Bliss Appは、心拍数(HR)、心拍変動(HRV)、呼吸数(BR)などの生体情報を解析して「Bliss Rating」を算出し、ユーザーの心身の状態を可視化するアプリです。Spotify APIとも連携しており、ユーザーの音楽の好みとApple Watchから取得したバイオメトリクスデータをもとに、Bliss Ratingを高めるのに適した楽曲を推薦します。このプロジェクトは、BCITのProject Practicumコースにおいて、BioSync Technology Ltd. をクライアントとして実施された産学連携プロジェクトです。わずか3.5週間という短期間の開発でしたが、クライアントから「よくやった」と高い評価をいただきました。",
+                description: "Apple Watchの生体データとSpotify APIを活用したウェルネスアプリです。ユーザーの心身の状態に合わせて「Bliss Rating」を算出し、適した楽曲を提案します。BCITの産学連携プロジェクトとして3.5週間で開発し、クライアントから高評価をいただきました。データ活用とユーザー体験を重視した設計です。",
                 tags: ["Swift", "FastAPI", "Python", "Team Project"],
                 images: ["/images/bliss/bliss-login.png","/images/bliss/apple-watch-mindfulness.jpg", "/images/bliss/bliss-app.PNG", "/images/bliss/bliss-backend-team.JPG"],
                 links: [
@@ -75,7 +75,7 @@ const commonMessages = {
     
             skyline_zipline: {
                 title: "Skyline Zipline",
-                description: "このプロジェクトは、BCITのProject Practicumコースにおける産学連携プロジェクトで、Skyline Ziplineをクライアントに迎えて学生チームが開発を行いました。紙ベースで運用されていたZiplineの点検フォームをWebアプリにデジタル化し、現場での入力作業の効率化とデータ管理の利便性向上を実現しました。",
+                description: "Skyline Zipline向けに、点検用紙をデジタル化するWebアプリを開発しました。BCITのProject Practicumとしてチームで取り組み、現場作業の効率化とデータ管理の利便性向上を実現しました。フォーム設計やデータベース構築に関わり、操作性と安定性を重視しました。実用性の高い業務改善アプリとなりました。",
                 tags: ["TypeScript", "Tailwind CSS", "React", "Next.js", "mySQL", "FireStore", "Team Project"],
                 images: [
                     "/images/skyline-zipline/skyline-login.png",
@@ -86,7 +86,7 @@ const commonMessages = {
     
             starbucks_drink_finder: {
                 title: "Starbucks Drink Finder",
-                description: "Starbucks Drink Finderは、ユーザーの好みに応じて最適なスターバックスドリンクを提案するWebアプリです。自然言語で入力されたテキストからタグ(例:'甘い'、'低カロリー' など)を予測し、健康スコアに基づいておすすめの飲み物を表示します。このプロジェクトはBCITの授業で100%の評価を受け、特にデモビデオの分かりやすさと完成度の高さを講師から高く評価されました。",
+                description: "自然言語での入力からユーザーの好みを読み取り、スターバックスのおすすめドリンクを提案するWebアプリです。タグ予測モデルと健康スコアに基づいて飲み物をランキングします。BCITの授業で100%のスコアを獲得し、デモの完成度と分かりやすさを講師から高く評価されました。ReactとPythonで構築しました。",
                 tags: ["React", "Tailwind CSS", "Python"],
                 images: [
                     "/images/starbucks-drink-finder/starbucks-title.png",
@@ -103,7 +103,7 @@ const commonMessages = {
 
             neighborhood_connect: {
                 title: "Neighborhood Connect",
-                description: "Neighborhood Connectは、地域のつながりを深めるためのコミュニティネットワークアプリです。イベントの企画や地域の掲示板、日常の助け合いなどを通じて、住民同士の交流を促進します。このアプリは、誰もが安心して参加できる、助け合いとつながりのある地域社会づくりをサポートします。\nこれはBCITでの初めてのグループプロジェクトであり、私が初めて作成したWebアプリケーションでもあるため、とても思い入れのある作品です。",
+                description: "ご近所同士のつながりを深めるためのコミュニティアプリです。イベント企画、チャット機能、助け合い機能などを搭載しています。これは私が初めて取り組んだグループ開発かつWebアプリで、思い入れのある作品です。全員で企画から開発まで協力して取り組みました。",
                 tags: ["HTML","JavaScript", "FireStore", "Bootstrap", "Team Project"],
                 images: [
                     "/images/neighborhood-connect/neighborhood-connect-hero.png",
@@ -116,7 +116,7 @@ const commonMessages = {
             },
             my_bcit_guide: {
                 title: "myBCIT ガイド",
-                description: "このプロジェクトは、BCITに入学が決まった新入生のために作成したガイドサイトです。クラスメイトと協力して、学校が始まるまでに済ませておくべき重要な手続きの中から3つを選び、Material for MkDocsで丁寧にドキュメント化しました。初めてのBCIT生活に不安を感じる学生でも、必要な情報にすぐにアクセスできるよう、わかりやすく検索しやすい構成になっています。",
+                description: "新入生向けに、入学前に行うべき3つの手続きをガイド化したWebサイトです。Material for MkDocsを用い、検索しやすく初心者に優しい構成に仕上げました。クラスメイトと協力し、内容の構成と執筆を担当しました。BCITでの初日を安心して迎えられるようサポートすることを目的としています。",
                 tags: ["Markdown", "Material for MkDocs", "Documentation", "Team Project"],
                 images: [
                     "/images/my-bcit-guide/myBCIT-guide-8.png",
@@ -135,7 +135,7 @@ const commonMessages = {
             },
             animal_adoption_predictor: {
                 title: "動物譲渡予測モデル",
-                description: "このプロジェクトでは、オースティン動物保護センターの実データを用いて、動物の譲渡結果を予測するモデルを構築しました。探索的データ分析の後、Random Forest・バギング・スタッキング・Votingなどのアンサンブル学習手法やロジスティック回帰を使用し、「譲渡された」「飼い主に返還された」「その他(移送・安楽死など)」の結果を分類しました。最終的に、92.2%の精度を出したRandom Forestモデルが最も有効であると判断されました。年齢・収容理由・避妊/去勢の有無・滞在日数といった特徴量が結果に大きく影響することがわかり、シェルターの意思決定に役立つデータ駆動型のアプローチを示しています。",
+                description: "実際のシェルターデータを用いて、動物の譲渡結果を予測するモデルを構築しました。Random Forestやロジスティック回帰などの手法を用い、92.2%の高い精度を達成しました。年齢・収容理由・避妊/去勢の有無などが重要な要因として特定されました。データに基づいた意思決定を支援するプロジェクトです。",
                 tags: ["Documentation", "Python"],
                 images: [
                     "/images/animal-adoption-predictor/animal-adoption-1.png",
@@ -150,7 +150,7 @@ const commonMessages = {
             },
             morse_code_translator: {
                 title: "モールス信号変換プログラム",
-                description: "C言語を用いて、ユーザーからの入力をモールス信号に変換するプログラムを開発しました。出力方法は「音声」と「画面の背景色の切り替え」の2種類があります。プレゼンテーションでは、チームメイトが「携帯電話のない状況で船に一人取り残されている」という設定の寸劇を行い、モールス信号変換プログラムを使って助けを呼ぶ様子を再現しました。この創意工夫のある発表と詳細なコード解説は、クラスメイトやインストラクターから高く評価され、チームとして100％のスコアを獲得しました。",
+                description: "C言語を用いて、ユーザーからの入力をモールス信号に変換するプログラムを開発しました。出力方法は「音声」と「画面の背景色の切り替え」の2種類があります。プレゼンテーションでは、チームメイトが「携帯電話のない状況で船に一人取り残されている」という設定の寸劇を行い、モールス信号変換プログラムを使って助けを呼ぶ様子を再現しました。この創意工夫のある発は、クラスメイトやインストラクターから高く評価されました。",
                 tags: ["C", "Team Project"],
                 images: [
                     "/images/morse-code-translator/morse-code-translator-1.png",
@@ -171,27 +171,27 @@ const commonMessages = {
             items: {
             volunteer: {
                 title: "ボランティア 🧹🫧",
-                description: "コットンウッドパークで清掃ボランティアとして活動しています。落ちているゴミを拾ったり、落書きや設備の破損がないかを点検するなど、地域の環境美化に取り組んでいます。",
+                description: "コットンウッドパークで清掃ボランティアに参加しています。ゴミ拾いや落書きのチェック、壊れた設備の報告などを行い、地域の環境を守る活動に貢献しています。公園で元気に遊ぶ子どもたちの姿を見ながら作業するのは、とても気持ちが良いです。こうした小さな活動が、地域の快適さにつながると信じています。",
                 image: "/images/volunteer/cotton-wood-park.png"
             },
             hair_donation: {
                 title: "ヘアドネーション ✂️💇‍♀️",
-                description: "2024年8月、3年以上大切に伸ばしてきた髪の毛をバッサリと切り、髪に悩む子どもたちのためにウィッグを製作している団体「Wigs for Kids BC」に寄付しました。現在は、再び寄付できるように髪を伸ばしています。",
+                description: "2024年8月に、3年以上伸ばした髪の毛を「Wigs for Kids BC」に寄付しました。この団体は、脱毛に悩む子どもたちにウィッグを届ける活動をしています。今回の寄付を通じて、誰かの自信や笑顔に少しでも役立てたら嬉しいです。現在は2回目の寄付に向けて、再び髪を伸ばしています。",
                 image: "/images/hair-donation/hair.png"
             },
             dog: {
                 title: "愛犬: ぷん太 🐶🩷",
-                description: "柴犬の「ぷん太」と一緒に暮らしています。私はカナダへの移住の際も、ぷん太と一緒に渡航しました。嬉しいときも悲しいときも、どんなときでもそばにいてくれる、大切な存在です。休日には公園へ出かけたり、可能な限り一緒にお出かけして思い出を作っています。車・飛行機・船・電車など、さまざまな乗り物も経験している、旅慣れたワンコです🐶",
+                description: "柴犬の「ぷん太」は、私の大切なパートナーです。カナダに来るときも一緒に引っ越し、今では私の生活に欠かせない存在です。週末は一緒に公園を散歩したり、ドライブや旅行にもよく出かけます。車・飛行機・船・電車などあらゆる乗り物に乗ったことがある、旅慣れたワンコです。",
                 image: "/images/my-dog/punta.png"
             },
             cooking: {
                 title: "料理 🍳👩‍🍳",
-                description: "料理が好きで、毎日自炊しています。2024年のクリスマスやお正月には、少しでも日本にいたときの気分を味わえるように、手の込んだ料理を作って頑張りました。最近はお菓子作りにもハマっていて、時間があるときにはヘルシーなおやつをせっせと作っています。今年の目標は、愛犬の誕生日ケーキを手作りして成功させることです!(ちなみに去年は失敗しました🥲)",
+                description: "毎日の食事は基本的にすべて自炊しています。日本の行事や季節感を感じられる料理を作るのが好きで、クリスマスやお正月も特別なメニューで過ごしました。最近は、オートミールやバナナなどを使ったヘルシーなお菓子作りにも挑戦中です。今年の目標は、愛犬の誕生日ケーキをうまく焼くことです！",
                 image: "/images/cooking/food.png"
             },
             workout: {
                 title: "筋トレ 🏋️‍♀️💪",
-                description: "2025年2月から筋トレを始めました。目標は、懸垂が1回できるくらいの筋力をつけることです! 朝早く起きてジムで体を動かすと、1日をすごく爽やかな気持ちでスタートできて、とても気持ちがいいです💪",
+                description: "2025年2月から筋トレを始めました。朝のジム通いは、心も体もすっきりさせて1日を元気にスタートするための大切なルーティンです。目標は「懸垂が1回できること」! 毎週少しずつ成長を感じながら、自分のペースで続けています。",
                 image: "/images/workout/workout.png"
             }
         }
