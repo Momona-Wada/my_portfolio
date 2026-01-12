@@ -5,7 +5,7 @@ const commonMessages = {
         about_me: "About Me",
         description:
         "Thank you for visiting my portfolio!\n" +
-        "I'm a junior IT engineer currently living in Canada for the fourth year. I completed the Computer Systems Technology program at BCIT in May 2025 and am currently seeking job opportunities.\n" +
+        "I completed the Computer Systems Technology program at BCIT in June 2025 and am currently seeking job opportunities.\n" +
         "At BCIT, I chose the Predictive Analytics option, where I worked on data analysis, model building, and creating documentation based on the results. I believe that building a model is not the end goal; it is equally important to clearly organize and document the outcomes.\n" +
         "My strengths include smooth communication within teams, strong time management skills, and the ability to consider others' perspectives when working. I always strive to handle tasks and projects with care while being considerate of both clients and team members.\n" +
         "Outside of tech, I enjoy working out, cooking, and spending time with my dog Punta, who moved to Canada with me. I'm passionate about creating tools that are not only functional but also make users feel supported and understood. I hope you enjoy exploring my work!",
